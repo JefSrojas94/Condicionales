@@ -19,10 +19,18 @@ let num2=0;
 let res2=0;
 num2=prompt("Digite el número a operar: ");
 res2 = num2%2;
-if (res2!=0){
+if (res2!==0){
     alert(num2 +" no es par");
 }
 else{
     alert(num2+" es par")
 }
 //EJ4
+let numcliente=0;
+numcliente=prompt("ingrese el numero de cliente:");
+if(Number(numcliente) === 1000){
+    alert("Ganaste un premio");
+}
+else{
+    alert("Lo sentimos, sigue participando");
+}
