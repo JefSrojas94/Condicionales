@@ -50,7 +50,6 @@ let numero3=0;
 numero1=prompt("Ingrese el primer numero: ");
 numero2=prompt("Ingrese el segundo numero: ");
 numero3=prompt("Ingrese el tercer numero: ");
-console.log(numero1,numero2,numero3)
 if(Number(numero1)===Number(numero2)||Number(numero1)===Number(numero3)){
     alert("hay dos numeros iguales");
 }else if(Number(numero1)>Number(numero2)&&Number(numero1)>Number(numero3)){
