@@ -34,3 +34,14 @@ if(Number(numcliente) === 1000){
 else{
     alert("Lo sentimos, sigue participando");
 }
+//EJ 5
+let numero1=0;
+let numero2=0;
+numero1=prompt("Ingrese el primer numero: ");
+numero2=prompt("Ingrese el segundo numero: ");
+if(Number(numero1) < Number(numero2)){
+    alert("el numero menor es: "+numero1);
+}
+else{
+    alert("el numero menor es: "+numero2);
+}
