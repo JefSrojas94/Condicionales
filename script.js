@@ -72,6 +72,16 @@ if(dia==="lunes"){
 //EJ 8 
 let calif=0;
 calif=prompt("Ingresela clificación en un rango de 1 A 10: ");
-if(Number(calif)){
-    
+if(Number(calif)>=1 && Number(calif)<=10){
+    if(Number(calif)<6){
+        alert("reprobado")
+    }else if (Number(calif)>=6 && Number(calif)<=8){
+        alert("regular")
+    }else if (Number(calif)===9){
+        alert("bien")
+    }else if (Number(calif)===10){
+        alert("Excelente")
+    }
+}else{
+    alert("!!!!ERROR, FUERA DEL RANGO")
 }
