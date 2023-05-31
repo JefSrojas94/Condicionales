@@ -68,6 +68,8 @@ if(dia==="lunes"){
     alert("Feliz fin de Semana!!!");
 }else if(dia==="sabado"||dia==="domingo"){
     alert("A DESCANSAR AMIGO LO HICISTE BIEN ESTA SEMANA!!!!!!!!");
+}else{
+    alert("A TRABAJAR!!!!!!!!");
 }
 //EJ 8 
 let calif=0;
