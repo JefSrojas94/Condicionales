@@ -59,3 +59,19 @@ if(Number(numero1)===Number(numero2)||Number(numero1)===Number(numero3)){
 }else if(Number(numero3)>Number(numero2)&&Number(numero3)>Number(numero1)){
     alert("el numero mayor es: "+numero3);
 }
+//EJ 7
+let dia="";
+dia=prompt("Ingrese el dia de la semana: ");
+if(dia==="lunes"){
+    alert("Feliz inicio de Semana!!!");
+}else if(dia==="viernes"){
+    alert("Feliz fin de Semana!!!");
+}else if(dia==="sabado"||dia==="domingo"){
+    alert("A DESCANSAR AMIGO LO HICISTE BIEN ESTA SEMANA!!!!!!!!");
+}
+//EJ 8 
+let calif=0;
+calif=prompt("Ingresela clificación en un rango de 1 A 10: ");
+if(Number(calif)){
+    
+}
