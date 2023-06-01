@@ -143,3 +143,31 @@ if (nivel==="course") {
         alert("el valor de su curso es: "+costo+"MXN");
     }
 }
+//EJ 11
+let tipveh=prompt("que tipo de vehiculo tiene: (coche,moto o autobus)");
+let kmrecor=prompt("ingrese la distancia recorrida:");
+let combust=prompt("litros de combustible consumidos");
+//total=(preciokm*kmrecorridos)+extra litros consumidos
+let totalpago=0;
+if (tipveh==="coche") {
+    totalpago=kmrecor*0.20;
+    if (Number(combust)===0 && Number(combust)<=100) {
+        totalpago=totalpago+5;
+    }else {
+        totalpago=totalpago+10;
+    }
+} else if (tipveh==="moto") {
+    totalpago=kmrecor*0.10;
+    if (Number(combust)===0 && Number(combust)<=100) {
+        totalpago=totalpago+5;
+    }else {
+        totalpago=totalpago+10;
+    }
+} else if (tipveh==="autobus") {
+    totalpago=kmrecor*0.5;
+    if (Number(combust)===0 && Number(combust)<=100) {
+        totalpago=totalpago+5;
+    }else {
+        totalpago=totalpago+10;
+    }
+} 
