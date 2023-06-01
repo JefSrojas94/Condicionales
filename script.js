@@ -153,21 +153,27 @@ if (tipveh==="coche") {
     totalpago=kmrecor*0.20;
     if (Number(combust)===0 && Number(combust)<=100) {
         totalpago=totalpago+5;
+        alert("el costo total es: "+totalpago)
     }else {
         totalpago=totalpago+10;
+        alert("el costo total es: "+totalpago)
     }
 } else if (tipveh==="moto") {
     totalpago=kmrecor*0.10;
     if (Number(combust)===0 && Number(combust)<=100) {
         totalpago=totalpago+5;
+        alert("el costo total es: "+totalpago)
     }else {
         totalpago=totalpago+10;
+        alert("el costo total es: "+totalpago)
     }
 } else if (tipveh==="autobus") {
     totalpago=kmrecor*0.5;
     if (Number(combust)===0 && Number(combust)<=100) {
         totalpago=totalpago+5;
+        alert("el costo total es: "+totalpago)
     }else {
         totalpago=totalpago+10;
+        alert("el costo total es: "+totalpago)
     }
 } 
