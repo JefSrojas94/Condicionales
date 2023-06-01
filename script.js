@@ -80,3 +80,19 @@ if(Number(calif)>=1 && Number(calif)<=10){
     alert("!!!!ERROR, FUERA DEL RANGO")
 }
 //EJ 9
+let topping = prompt("Ingrese el topping a adicionar a su orden: ");
+let helado = 50;
+topping.toLocaleLowerCase
+if(topping==="oreo"){
+    helado=helado+10;
+    alert("el valor del su healdo es: "+helado+"MXN");
+}else if(topping==="kitkat"){
+    helado=helado+15;
+    alert("el valor del su healdo es: "+helado+"MXN");
+}else if(topping==="brownie"){
+    helado=helado+20;
+    alert("el valor del su healdo es: "+helado+"MXN");
+}else{
+    alert("no tenemos este topping, lo sentimos");
+    alert("el valor del su healdo es: "+helado+"MXN");
+}
