@@ -82,7 +82,7 @@ if(Number(calif)>=1 && Number(calif)<=10){
 //EJ 9
 let topping = prompt("Ingrese el topping a adicionar a su orden: ");
 let helado = 50;
-topping.toLocaleLowerCase
+topping.toLowerCase
 if(topping==="oreo"){
     helado=helado+10;
     alert("el valor del su healdo es: "+helado+"MXN");
@@ -95,4 +95,51 @@ if(topping==="oreo"){
 }else{
     alert("no tenemos este topping, lo sentimos");
     alert("el valor del su healdo es: "+helado+"MXN");
+}
+//EJ 10
+let costo=0;
+let nivel=prompt("Escriba el nivel: (course,carrera,master)");
+nivel.toLowerCase
+let beca=prompt("Escriba el nivel: (facebook,google,jesua)");
+beca.toLowerCase
+let desc=0;
+if (nivel==="course") {
+    costo=4999*2; 
+    if (beca==="facebook") {
+        desc=costo*0.2;
+        costo=costo-desc;
+        alert("el valor de su curso es: "+costo+"MXN");
+    } else if(beca==="google"){
+        desc=costo*0.15;
+        alert("el valor de su curso es: "+costo+"MXN");
+    }else if (beca==="jesua") {
+        desc=costo*0.5;
+        alert("el valor de su curso es: "+costo+"MXN");
+    } 
+}else if (nivel==="carrera") {
+    costo=3999*6;
+    if (beca==="facebook") {
+        desc=costo*0.2;
+        costo=costo-desc;
+        alert("el valor de su curso es: "+costo+"MXN");
+    } else if(beca==="google"){
+        desc=costo*0.15;
+        alert("el valor de su curso es: "+costo+"MXN");
+    }else if (beca==="jesua") {
+        desc=costo*0.5;
+        alert("el valor de su curso es: "+costo+"MXN");
+    }
+}else if (nivel==="master") {
+    costo=2999*12;
+    if (beca==="facebook") {
+        desc=costo*0.2;
+        costo=costo-desc;
+        alert("el valor de su curso es: "+costo+"MXN");
+    } else if(beca==="google"){
+        desc=costo*0.15;
+        alert("el valor de su curso es: "+costo+"MXN");
+    }else if (beca==="jesua") {
+        desc=costo*0.5;
+        alert("el valor de su curso es: "+costo+"MXN");
+    }
 }
